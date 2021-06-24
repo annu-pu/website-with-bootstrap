@@ -1,0 +1,168 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+/* headings */
+h1,h2,h3,h4,h5,h6{
+  font-weight: 900;
+}
+
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-heading{
+  font-size: 2rem;
+}
+
+.pricing-card-heading{
+  font-size: 1.5rem;
+}
+.box{
+   padding: 6% 10%;
+}
+
+
+#title{
+  background-color: #ff6c48;
+  color: white;
+  text-align: left;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+.nav-item{
+  padding: 0 10px;
+}
+
+
+
+.container-fluid{
+  padding: 4% 10% 3%;
+  overflow: hidden;
+}
+.apple{
+  width: 30px;
+  height: 30px;
+}
+.google{
+  width: 30px;
+  height: 30px;
+}
+.iphone{
+   margin-left: 24%;
+   width: 60%;
+   transform: rotate(25deg);
+   position: relative;
+   top: 35%;
+   right: 5%;
+}
+
+.section-row{
+  padding-top: 5%;
+}
+.navbar{
+  padding: 0;
+}
+.download-button{
+  margin: 5% 3% 0;
+}
+.column{
+  margin-bottom: 5rem;
+}
+.cont{
+
+  line-height: 1.5rem;
+
+  background-color: white;
+}
+.feature-para{
+  font-weight: normal;
+  line-height: 1.5;
+  color:grey;
+}
+.feature-img{
+  height: 40px;
+  width: 40px;
+  margin: 1rem 0 1rem;
+}
+
+.middle{
+  margin: 5rem 0;
+}
+#testimonials{
+
+  background-color: #FF6701;
+  color: white;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 15%;
+  margin: 2rem;
+}
+#press{
+  background-color: #FF6701;
+}
+.press-img{
+  width: 15%;
+  margin:0 1rem;
+  margin: 40px 20px 20px;
+}
+
+.carousel-item{
+     padding-left: 15%;
+     padding-right: 15%;
+}
+.carousel-indicators{
+  margin-bottom: 0;
+}
+#pricing{
+
+
+  line-height: 2;
+  background-color: #F6F6F6;
+}
+.pricing-column{
+  padding: 1.5rem;
+}
+@media (max-width: 992px) {
+  .section-row{
+    text-align: center;
+  }
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 515px){
+  .testimonial-img{
+    width: 60px;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  color: white;
+
+  padding: 7% 10%;
+}
+#footer{
+
+  background-color: #fff;
+
+  color: grey;
+  line-height: 2;
+}
+.footer-img{
+  width: 30px;
+  height: 30px;
+  margin: 2rem 2rem;
+}
